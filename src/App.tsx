@@ -1,6 +1,6 @@
 import "./index.css";
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import {
   FiArrowUpRight,
   FiExternalLink,
@@ -111,7 +111,7 @@ const services = [
   },
 ];
 
-const container = {
+const container: Variants = {
   hidden: {},
   show: {
     transition: {
@@ -120,12 +120,15 @@ const container = {
   },
 };
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 35 },
   show: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.7, ease: "easeOut" },
+    transition: {
+      duration: 0.7,
+      ease: "easeOut",
+    },
   },
 };
 
@@ -136,7 +139,7 @@ export default function App() {
     <div className="relative min-h-screen overflow-hidden bg-[#050505] text-white">
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-        * { font-family: 'Poppins', sans-serif; }
+        * { font-family: 'Inter', sans-serif; }
         html { scroll-behavior: smooth; }
       `}</style>
 
@@ -159,7 +162,7 @@ export default function App() {
             Umair Shah
           </a>
 
-          <nav className="hidden uppercase items-center gap-8 md:flex">
+          <nav className="hidden items-center gap-8 uppercase md:flex">
             <a href="#services" className="text-sm text-zinc-300 transition hover:text-white">
               Services
             </a>
@@ -219,7 +222,7 @@ export default function App() {
                 Contact
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/umair-shah-8b5b473aa/"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 text-sm text-zinc-300"
@@ -448,7 +451,7 @@ export default function App() {
                       <img
                         src={project.image}
                         alt={project.title}
-                        className="h-[290px] w-[600px] object-cover transition duration-700 group-hover:scale-105 md:h-[430px] mt-32 lg:h-[300px]"
+                        className="mt-32 h-[290px] w-[600px] object-cover transition duration-700 group-hover:scale-105 md:h-[430px] lg:h-[300px]"
                       />
 
                       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
@@ -489,7 +492,7 @@ export default function App() {
                             className={`rounded-full border px-3.5 py-1.5 text-[10px] font-bold uppercase tracking-[0.18em] ${
                               project.status === "Live"
                                 ? "border-fuchsia-400/20 bg-fuchsia-500/10 text-fuchsia-300"
-                                : "border-violet-400/20 bg-red-500/30 text-red-500"
+                                : "border-violet-400/20 bg-red-500/30 text-red-400"
                             }`}
                           >
                             {project.status}
@@ -668,7 +671,7 @@ export default function App() {
 
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="https://mail.google.com/mail/u/0/#search/umair41388shah%40gmail.com" target="top"
+                  href="mailto:umair41388shah@gmail.com"
                   className="inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-fuchsia-500 via-violet-500 to-purple-600 px-5 py-3 text-sm font-semibold text-white shadow-[0_12px_40px_rgba(168,85,247,0.28)] transition duration-300 hover:scale-[1.03]"
                 >
                   Email Me
@@ -709,7 +712,7 @@ export default function App() {
               </p>
             </div>
 
-            <div className="flex items-center uppercase justify-center gap-4 md:justify-end">
+            <div className="flex items-center justify-center gap-4 uppercase md:justify-end">
               <a href="#home" className="text-sm text-zinc-400 transition hover:text-white">
                 Home
               </a>
