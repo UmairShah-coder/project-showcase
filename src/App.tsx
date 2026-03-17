@@ -25,6 +25,32 @@ import {
 
 const projects = [
   {
+    title: "Stripe King",
+    category: "Premium Footwear Platform",
+    description:
+      "A modern full-stack footwear platform with authentication, scalable backend architecture, curated storefront design, and a polished shopping experience.",
+    image: "/aaa.png",
+    live: "https://stripe-king.vercel.app/",
+    code: "https://github.com/UmairShah-coder/stripeKing.git",
+    tech: [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js",
+      "TypeScript",
+      "JWT",
+      "Tailwind CSS",
+    ],
+    status: "In Progress (Backend APIs not connected)",
+    number: "02",
+    role: "Full Stack Development • MERN Architecture",
+    highlights: [
+      "Authentication and protected routes",
+      "Scalable MERN-based structure",
+      "Product-oriented storefront experience",
+    ],
+  },
+  {
     title: "Time Sphere",
     category: "Luxury Watch E-Commerce",
     description:
@@ -42,32 +68,7 @@ const projects = [
       "Clean layout and strong visual hierarchy",
     ],
   },
-  {
-    title: "Stripe King",
-    category: "Premium Footwear Platform",
-    description:
-      "A modern full-stack footwear platform with authentication, scalable backend architecture, curated storefront design, and a polished shopping experience.",
-    image: "/aaa.png",
-    live: "https://stripe-king.vercel.app/",
-    code: "https://github.com/UmairShah-coder/stripeKing.git",
-    tech: [
-      "MongoDB",
-      "Express",
-      "React",
-      "Node.js",
-      "TypeScript",
-      "JWT",
-      "Tailwind CSS",
-    ],
-    status: "In Progress",
-    number: "02",
-    role: "Full Stack Development • MERN Architecture",
-    highlights: [
-      "Authentication and protected routes",
-      "Scalable MERN-based structure",
-      "Product-oriented storefront experience",
-    ],
-  },
+  
 ];
 
 const stats = [
