@@ -42,7 +42,7 @@ const projects = [
       "Tailwind CSS",
     ],
     status: "In Progress (Backend APIs not connected)",
-    number: "02",
+    number: "01",
     role: "Full Stack Development • MERN Architecture",
     highlights: [
       "Authentication and protected routes",
@@ -60,7 +60,7 @@ const projects = [
     code: "https://github.com/UmairShah-coder/watches-app.git",
     tech: ["React", "Vite", "TypeScript", "Tailwind CSS"],
     status: "Live",
-    number: "01",
+    number: "02",
     role: "Frontend Development • UI Implementation",
     highlights: [
       "Luxury-inspired premium interface",
