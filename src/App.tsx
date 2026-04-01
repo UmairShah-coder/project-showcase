@@ -160,7 +160,7 @@ export default function App() {
             href="#home"
             className="text-sm font-bold uppercase tracking-[0.32em] text-white"
           >
-            Umair Shah
+            Syed Umair
           </a>
 
           <nav className="hidden items-center gap-8 uppercase md:flex">
@@ -707,7 +707,7 @@ export default function App() {
         <footer className="mt-16 border-t border-white/10 py-8">
           <div className="flex flex-col gap-4 text-center md:flex-row md:items-center md:justify-between md:text-left">
             <div>
-              <p className="text-sm font-medium text-zinc-300">Umair Shah</p>
+              <p className="text-sm font-medium text-zinc-300">Syed Umair</p>
               <p className="mt-1 text-sm text-zinc-500">
                 Frontend Developer crafting modern digital experiences.
               </p>
