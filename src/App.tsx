@@ -68,13 +68,30 @@ const projects = [
       "Clean layout and strong visual hierarchy",
     ],
   },
-  
+  {
+  title: "Iphone Store",
+  category: "Luxury Iphone Store",
+  description:
+    "A modern and elegant e-commerce interface built using HTML, CSS, and Tailwind CSS, focusing on clean design, responsive layouts, and a smooth user browsing experience for a premium digital brand.",
+  image: "/ipho.png",
+  live: "https://apple-link.vercel.app/",
+  code: "https://github.com/UmairShah-coder/Apple-Link",
+  tech: ["HTML", "CSS", "Tailwind CSS"],
+  status: "Live",
+  number: "03",
+  role: "Frontend Development • UI Design",
+  highlights: [
+    "Clean and modern UI design",
+    "Fully responsive layout across devices",
+    "Optimized product showcase sections",
+  ],
+}
 ];
 
 const stats = [
   {
     label: "Projects Built",
-    value: "02+",
+    value: "03+",
     icon: <FiBriefcase />,
   },
   {
