@@ -24,6 +24,33 @@ import {
 } from "react-icons/fi";
 
 const projects = [
+    
+{
+  title: "Linkora",
+  category: "Modern Social Networking Platform",
+  description:
+    "A full-stack modern social media platform where users can connect, share posts, interact with friends, and explore content in a smooth and responsive UI experience. Built with a scalable architecture and clean user experience focus.",
+  image: "/lin.png",
+  live: "https://social-app-ten-alpha.vercel.app/",
+  code: "https://github.com/UmairShah-coder/social-app",
+  tech: [
+    "MongoDB",
+    "Express",
+    "React",
+    "Node.js",
+    "TypeScript",
+    "JWT",
+    "Tailwind CSS",
+  ],
+  status: "In Progress (Backend APIs integration ongoing)",
+  number: "01",
+  role: " Social Media Architecture ",
+  highlights: [
+    "User authentication & protected routes",
+    "Post creation, like & comment system",
+    "Friend connection / social interaction features",
+  ],
+},
   {
     title: "Stripe King",
     category: "Premium Footwear Platform",
@@ -42,7 +69,7 @@ const projects = [
       "Tailwind CSS",
     ],
     status: "In Progress (Backend APIs not connected)",
-    number: "01",
+    number: "02",
     role: "Full Stack Development • MERN Architecture",
     highlights: [
       "Authentication and protected routes",
@@ -60,7 +87,7 @@ const projects = [
     code: "https://github.com/UmairShah-coder/watches-app.git",
     tech: ["React", "Vite", "TypeScript", "Tailwind CSS"],
     status: "Live",
-    number: "02",
+    number: "03",
     role: "Frontend Development • UI Implementation",
     highlights: [
       "Luxury-inspired premium interface",
@@ -78,7 +105,7 @@ const projects = [
   code: "https://github.com/UmairShah-coder/Apple-Link",
   tech: ["HTML", "CSS", "Tailwind CSS"],
   status: "Live",
-  number: "03",
+  number: "04",
   role: "Frontend Development • UI Design",
   highlights: [
     "Clean and modern UI design",
@@ -91,7 +118,7 @@ const projects = [
 const stats = [
   {
     label: "Projects Built",
-    value: "03+",
+    value: "04+",
     icon: <FiBriefcase />,
   },
   {
@@ -155,10 +182,9 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#050505] text-white">
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-        * { font-family: 'Inter', sans-serif; }
-        html { scroll-behavior: smooth; }
+       <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+        * { font-family: 'Poppins', sans-serif; }
       `}</style>
 
       {/* Background */}
