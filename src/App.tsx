@@ -29,8 +29,8 @@ const projects = [
   title: "Linkora",
   category: "Modern Social Networking Platform",
   description:
-    "A full-stack modern social media platform where users can connect, share posts, interact with friends, and explore content in a smooth and responsive UI experience. Built with a scalable architecture and clean user experience focus.",
-  image: "/lin.png",
+    "A Full-Stack modern social media platform where users can connect, share posts, interact with friends, and explore content in a smooth and responsive UI experience. Built with a scalable architecture and clean user experience focus.",
+  image: "/new.png",
   live: "https://social-app-ten-alpha.vercel.app/",
   code: "https://github.com/UmairShah-coder/social-app",
   tech: [
@@ -55,7 +55,7 @@ const projects = [
     title: "Stripe King",
     category: "Premium Footwear Platform",
     description:
-      "A modern full-stack footwear platform with authentication, scalable backend architecture, curated storefront design, and a polished shopping experience.",
+      "A modern Full-Stack footwear platform with authentication, scalable backend architecture, curated storefront design, and a polished shopping experience.",
     image: "/aaa.png",
     live: "https://stripe-king.vercel.app/",
     code: "https://github.com/UmairShah-coder/stripeKing.git",
@@ -465,7 +465,7 @@ export default function App() {
               variants={fadeUp}
               className="max-w-xl text-sm leading-7 text-zinc-400"
             >
-              A curated collection of frontend and full-stack builds with clean
+              A curated collection of frontend and Full-Stack builds with clean
               design execution, maintainable structure, and product thinking.
             </motion.p>
           </motion.div>
@@ -709,7 +709,7 @@ export default function App() {
                 <p className="mt-4 max-w-2xl text-sm leading-7 text-zinc-300">
                   Available for freelance work, collaborations, business
                   websites, premium portfolios, landing pages, dashboards, and
-                  full web applications.
+                  Full web applications.
                 </p>
               </div>
 
