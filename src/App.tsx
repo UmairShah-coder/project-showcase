@@ -26,29 +26,29 @@ import {
 const projects = [
     
 {
-  title: "Linkora",
-  category: "Modern Social Networking Platform",
+  title: "Flixora",
+  category: "Modern Movie Streaming / Discovery Platform",
   description:
-    "A Full-Stack modern social media platform where users can connect, share posts, interact with friends, and explore content in a smooth and responsive UI experience. Built with a scalable architecture and clean user experience focus.",
-  image: "/new.png",
+    "A Full-Stack modern movies website where users can explore latest movies, view details, watch trailers, and discover trending films in a smooth and responsive UI experience. Built with a scalable architecture and clean UI focused on movie browsing experience.",
+  image: "/add.png",
   live: "https://social-app-ten-alpha.vercel.app/",
-  code: "https://github.com/UmairShah-coder/social-app",
+  code: "https://github.com/UmairShah-coder/moviemaker",
   tech: [
     "MongoDB",
     "Express",
     "React",
     "Node.js",
     "TypeScript",
-    "JWT",
+    "TMDB API (or Movies API)",
     "Tailwind CSS",
   ],
-  status: "In Progress (Backend APIs integration ongoing)",
+  status: "In Progress (Movie API integration ongoing)",
   number: "01",
-  role: " Social Media Architecture ",
+  role: " Movie Platform Development ",
   highlights: [
-    "User authentication & protected routes",
-    "Post creation, like & comment system",
-    "Friend connection / social interaction features",
+    "Trending & latest movies listing",
+    "Movie details page with ratings & overview",
+    "Search & filter movies by category",
   ],
 },
   {
