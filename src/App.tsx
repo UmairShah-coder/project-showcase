@@ -30,7 +30,7 @@ const projects = [
   category: "Modern Movie Streaming / Discovery Platform",
   description:
     "A Full-Stack modern movies website where users can explore latest movies, view details, watch trailers, and discover trending films in a smooth and responsive UI experience. Built with a scalable architecture and clean UI focused on movie browsing experience.",
-  image: "/add.png",
+  image: "/new3.png",
   live: "https://social-app-ten-alpha.vercel.app/",
   code: "https://github.com/UmairShah-coder/moviemaker",
   tech: [
